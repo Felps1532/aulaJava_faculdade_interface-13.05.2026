@@ -9,7 +9,8 @@ public class Carro implements Veiculo {
     }
 
     public Carro(double velocidade) {
-        this("", velocidade);
+        this("", velocidade); // ele puxa a funcionalidade do Construtor de baixo, que está mais completo,
+                              // evitando repetir código
     }
 
     public Carro(String nome, double velocidade) {

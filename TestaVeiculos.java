@@ -11,6 +11,5 @@ public class TestaVeiculos {
         for (Veiculo v : veiculos) {
             v.acelerar();
         }
-
     }
 }
